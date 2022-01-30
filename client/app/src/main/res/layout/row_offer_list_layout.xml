@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="1dp"
+    card_view:cardCornerRadius="3dp"
+    android:layout_margin="5dp">
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/img_merchant_image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img_merchant_image"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textview_title_1"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/color_black"
+                android:text="Dakshina Mandapa - Taj Mahal Hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="15% on Food  Soft Beverages"
+                android:id="@+id/textview_title_2"
+                android:layout_width="wrap_content"
+                android:textSize="11sp"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Offer valid on Credit and Debit Cards"
+                android:id="@+id/textview_title_3"
+                android:layout_width="wrap_content"
+                android:textColor="#000066"
+                android:textSize="11sp"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_toLeftOf="@+id/textview_valid_till"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#FF6600"
+                android:text="validity: "
+                />
+            <TextView
+                android:id="@+id/textview_valid_till"
+                android:textSize="6sp"
+                android:text="28th February 2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "31315526692",
+    "firebase_url": "https://oneassisthackathon.firebaseio.com",
+    "project_id": "oneassisthackathon",
+    "storage_bucket": "oneassisthackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31315526692:android:7a500503231f340d",
+        "android_client_info": {
+          "package_name": "offerapp.oneassist.com.oneassisthackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31315526692-3jtavot8vl4jbqjvn4e3ksndgk97lska.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "offerapp.oneassist.com.oneassisthackathon",
+            "certificate_hash": "1cb55b9d05d58a2d8b45628abbae3e4316ec6a77"
+          }
+        },
+        {
+          "client_id": "31315526692-785rno8tric1f7lam9lq13q0u6ev4bhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACBaPBEFxBlkA2klvxQkKceuPpftLiMr4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31315526692-785rno8tric1f7lam9lq13q0u6ev4bhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

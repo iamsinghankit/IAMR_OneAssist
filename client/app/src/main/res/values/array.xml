@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="citry_array">
+        <item>ahmedabad</item>
+        <item>bengaluru</item>
+        <item>chandigarh</item>
+        <item>chennai</item>
+        <item>delhi</item>
+        <item>hyderabad</item>
+        <item>kolkata</item>
+        <item>mumbai</item>
+        <item>pune</item>
+    </string-array>
+</resources>
